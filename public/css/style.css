@@ -9,27 +9,71 @@ h1
    font-size: 4em !important;
    display: flex;
    justify-content: center;
-   font-family: Helvetica;
+   font-family: 'Playfair Display SC', serif;
    color: white;
    opacity: 0.7;
 
 }
 
+nav
+{
 
+   margin: 0 auto;
+   width: 100%;
+   vertical-align:bottom;
+   line-height:50px;
+   height:80px;
+}
 
-.menu
+nav ul li
+{
+   display: inline-block;
+}
+
+nav ul li a
 {
    display: block;
-   position: absolute;
-   margin: 0;
-   top: 0;
-   bottom: 0;
-   left: 0;
-   right: 0;
-   content: '.';
-   color: transparent;
-   width: 1px;
-   height: 1px;
-   border-radius: 50%;
-   background: transparent;
+   text-decoration: none;
+   font-weight: 800;
+   text-transform: uppercase;
+   margin: 0 10px;
+}nav ul li a:hover
+ {
+    color: black;
+ }
+
+.menu ul li a
+{
+   position: relative;
+   overflow: hidden;
+   z-index: 1;
+}
+
+
+nav ul
+{
+   list-style-type: none;
+   padding: 0;
+   text-align: center;
+}
+
+nav > ul
+{
+   display: flex;
+   flex-flow: row wrap;
+}
+
+.menu a
+{
+   display: block;
+   text-align: center;
+   font-family: 'Playfair Display SC', serif;
+   font-size: 1.5em;
+   color: black;
+}
+
+.menu > ul > li
+{
+   position: relative;
+   flex-grow: 1;
 }
