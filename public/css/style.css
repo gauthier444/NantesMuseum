@@ -1,0 +1,35 @@
+body
+{
+   background-image: url('../image/autruche.jpg');
+   background-size: cover;
+
+}
+h1
+{
+   font-size: 4em !important;
+   display: flex;
+   justify-content: center;
+   font-family: Helvetica;
+   color: white;
+   opacity: 0.7;
+
+}
+
+
+
+.menu
+{
+   display: block;
+   position: absolute;
+   margin: 0;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   content: '.';
+   color: transparent;
+   width: 1px;
+   height: 1px;
+   border-radius: 50%;
+   background: transparent;
+}
