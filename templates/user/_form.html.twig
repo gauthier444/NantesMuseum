@@ -1,7 +1,6 @@
 
 {% block stylesheets %}
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ asset('css/user.css') }}">
 {% endblock %}
 
@@ -9,3 +8,4 @@
     {{ form_widget(form) }}
     <button class="btn">{{ button_label|default('Validez') }}</button>
 {{ form_end(form) }}
+
