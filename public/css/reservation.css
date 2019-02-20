@@ -19,6 +19,7 @@ form
     text-align: center;
     font-family: 'Playfair Display SC', serif;
     flex-direction: column;
+    margin-top: 50px;
 }
 
 form label
@@ -30,10 +31,9 @@ form label
     color: black;
 }
 
-button
+.btn
 {
     margin-top: 55px;
-    font-size: 1.6em;
     font-family: 'Playfair Display SC', serif;
     color: black;
     transition: all 0.3s;
@@ -95,6 +95,11 @@ button:hover::after
     transform: scale(0.1, 1);
 }
 
+nav >ul >li a:hover
+{
+    color: #995629;
+}
+
 nav >ul >li a
 {
     display: flex;
@@ -137,4 +142,13 @@ ul
 .navbar-content {
     bottom: 15vh;
     z-index: 6000;
+}
+
+footer
+{
+    position: absolute;
+    bottom: 0;
+    margin-left: 1550px;
+    margin-bottom: 24px;
+    color: white;
 }
