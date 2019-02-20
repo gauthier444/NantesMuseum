@@ -1,5 +1,6 @@
 body
 {
+   position: relative;
    background-image: url('../image/autruche.jpg');
    background-size: cover;
    background-repeat: no-repeat;
@@ -10,11 +11,11 @@ body
 }
 
 
+
 h1
 {
+   margin-left: 134px;
    font-size: 5em !important;
-   display: flex;
-   flex-direction: column;
    font-family: 'Playfair Display SC', serif;
    color: white;
    opacity: 0.7;
@@ -23,9 +24,62 @@ h1
 
 nav >ul >li a
 {
+
+
    display: flex;
    flex-direction: column;
    list-style-type: none;
-   color: black;
+   color: #c48446;
+   margin-bottom: 10px;
+
 }
 
+ul
+{
+   list-style-type: none;
+}
+
+
+ul
+{
+   list-style-type: none;
+}
+
+.navbar-fixed-background
+{
+   position: fixed;
+   display: block;
+   float: left;
+   width: 6rem;
+   height: 100vh;
+   left: 0;
+   top: 0;
+   z-index: 4999;
+   background: none repeat scroll 0 0 #c48446;
+   border-right: .2rem solid white;
+   overflow: hidden;
+   transform: translate3d(0,0,0)
+}
+
+.navbar-content.sidebar {
+   margin-left: 97px;
+   margin-top: 53px;
+   font-size: 1.3em;
+   display: block;
+   width: 26%;
+   left: 6rem;
+}
+
+.navbar-content {
+   bottom: 15vh;
+   z-index: 6000;
+}
+
+footer 
+{
+   position: absolute;
+   bottom: 0;
+   margin-left: 1550px;
+   margin-bottom: 24px;
+   color: white;
+}
