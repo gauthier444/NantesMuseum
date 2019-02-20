@@ -30,8 +30,8 @@ nav >ul >li a
    display: flex;
    flex-direction: column;
    list-style-type: none;
-   color: #c48446;
-   margin-bottom: 10px;
+   color: white;
+   margin-bottom: 23px;
 }
 
 ul
@@ -39,10 +39,56 @@ ul
    list-style-type: none;
 }
 
+
+
+/*.home*/
+/*{*/
+   /*display: block;*/
+   /*width: 35px;*/
+   /*height: auto;*/
+   /*margin-top: 242px;*/
+   /*margin-left: 26px;*/
+/*}*/
+
+/*.expos*/
+/*{*/
+   /*display: block;*/
+   /*width: 30px;*/
+   /*height: auto;*/
+   /*margin-top: 131px;*/
+   /*margin-left: 29px;*/
+
+/*}*/
+
+/*.musees*/
+/*{*/
+
+   /*width: 30px;*/
+   /*height: auto;*/
+   /*margin-top: -618px;*/
+   /*margin-left: 29px;*/
+/*}*/
+
+/*.ticket*/
+/*{*/
+
+   /*width: 30px;*/
+   /*height: auto;*/
+/*}*/
+
+.navbar-fixed-background img
+{
+   width: 30px;
+   height: auto;
+}
+
 .navbar-fixed-background
 {
+
    position: fixed;
-   display: block;
+   justify-content: space-around;
+   display: flex;
+   flex-direction: column;
    float: left;
    width: 6rem;
    height: 100vh;
@@ -57,12 +103,9 @@ ul
 
 .navbar-content.sidebar
 {
-   margin-left: 97px;
-   margin-top: 53px;
-   font-size: 1.3em;
-   display: block;
-   width: 26%;
-   left: 6rem;
+   display: flex;
+   
+   float: right;
 }
 
 .navbar-content {
@@ -78,3 +121,5 @@ footer
    margin-bottom: 24px;
    color: white;
 }
+
+
