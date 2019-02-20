@@ -7,6 +7,10 @@
             <link rel="stylesheet" href="{{ asset('css/style.css') }}">
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
             <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
+
+            <link href="https://fonts.googleapis.com/css?family=Tulpen+One" rel="stylesheet">
+
+
         {% endblock %}
     </head>
     <body>
@@ -14,20 +18,36 @@
     {% endblock %}
         {% block menu %}
 
-            <nav class="menu">
+            <nav class= "menu">
                 <ul>
-                    <li><a href="../Page d'acceuil/index.html"><img src="iron-throne.png" alt="Icone retour à l'accueil" /></a></li>
+                    <li><a href="../Page d'acceuil/index.html"><img src="iron-throne.png" alt="Accueil" /></a></li>
                     <li><a href="../Stark/stark.html">Les Musées</a></li>
-                    <li><a href="../Lannister/lannister.html">Contact</a></li>
-                    <li><a href="../Targaryen/maison-targaryen.html">Réservation</a></li>
-                    <li><a href="../Baratheon/baratheon.html">Calendrier</a></li>
+                    <li><a href="../Lannister/lannister.html">Réservation</a></li>
+                    <li><a href="../Targaryen/maison-targaryen.html">Expositions</a></li>
+                    <li><a href="../Baratheon/baratheon.html">Contact</a></li>
                 </ul>
             </nav>
 
         {% endblock %}
 
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js" integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp" crossorigin="anonymous"></script>
-        {% block javascripts %}{% endblock %}
+
+    <footer>
+        <p>
+            Contactez-nous
+
+            Nantes.tourisme
+            Lundi - Samedi de 10h à 18h
+            Dimanche et jours fériés de 10h à 17h
+            7j/7 de 9h à 19h juillet et août
+
+            9 Rue Fitzgerald – 44000 Nantes
+
+            Un projet culturel pour la promotion des Musées de Nantes.
+
+            Gestion de sites par délégations de services publics (Château des ducs de Bretagne, Machines de l’Île...) Parcours Estuaire Nantes<>Saint-Nazaire.
+        </p>
+    </footer>
+
 
 
 
