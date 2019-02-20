@@ -10,8 +10,6 @@ body
 
 }
 
-
-
 h1
 {
    margin-left: 134px;
@@ -22,23 +20,19 @@ h1
 
 }
 
+nav >ul >li a:hover
+{
+   color: #995629;
+}
+
 nav >ul >li a
 {
-
-
    display: flex;
    flex-direction: column;
    list-style-type: none;
    color: #c48446;
    margin-bottom: 10px;
-
 }
-
-ul
-{
-   list-style-type: none;
-}
-
 
 ul
 {
@@ -61,7 +55,8 @@ ul
    transform: translate3d(0,0,0)
 }
 
-.navbar-content.sidebar {
+.navbar-content.sidebar
+{
    margin-left: 97px;
    margin-top: 53px;
    font-size: 1.3em;

@@ -7,10 +7,16 @@
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
 {% endblock %}
 
+
 {% block body %}
     <h1>Réservez votre place !</h1>
 
     {{ include('reservation/_form.html.twig') }}
 
     <a href="{{ path('reservation_index') }}">back to list</a>
+
 {% endblock %}
+
+
+
+
