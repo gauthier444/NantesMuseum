@@ -25,68 +25,40 @@ nav >ul >li a:hover
    color: #995629;
 }
 
-nav >ul >li a
+a
 {
-   display: flex;
-   flex-direction: column;
-   list-style-type: none;
-   color: white;
-   margin-bottom: 23px;
+   text-align: center;
+   display: block;
+   color: #f2faff !important;
 }
 
 ul
 {
+   padding: 0;
    list-style-type: none;
 }
 
 
+.navbar-fixed-background ul li
+{
+   margin-bottom: 2.8em;
+}
 
-/*.home*/
-/*{*/
-   /*display: block;*/
-   /*width: 35px;*/
-   /*height: auto;*/
-   /*margin-top: 242px;*/
-   /*margin-left: 26px;*/
-/*}*/
-
-/*.expos*/
-/*{*/
-   /*display: block;*/
-   /*width: 30px;*/
-   /*height: auto;*/
-   /*margin-top: 131px;*/
-   /*margin-left: 29px;*/
-
-/*}*/
-
-/*.musees*/
-/*{*/
-
-   /*width: 30px;*/
-   /*height: auto;*/
-   /*margin-top: -618px;*/
-   /*margin-left: 29px;*/
-/*}*/
-
-/*.ticket*/
-/*{*/
-
-   /*width: 30px;*/
-   /*height: auto;*/
-/*}*/
 
 .navbar-fixed-background img
 {
+   padding-bottom: -30px;
    width: 30px;
-   height: auto;
+
 }
 
 .navbar-fixed-background
 {
 
+   padding-top: 187px;
+   padding-bottom: 209px;
    position: fixed;
-   justify-content: space-around;
+   justify-content: center;
    display: flex;
    flex-direction: column;
    float: left;
@@ -104,7 +76,7 @@ ul
 .navbar-content.sidebar
 {
    display: flex;
-   
+
    float: right;
 }
 
@@ -121,5 +93,4 @@ footer
    margin-bottom: 24px;
    color: white;
 }
-
 
