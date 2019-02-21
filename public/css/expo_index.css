@@ -3,6 +3,14 @@ body
     background-image: url('../image/expo-index.jpg');
     background-size: cover;
     text-align: center !important;
+    font-family: 'Chakra Petch', sans-serif !important;
+}
+
+.link
+{
+    font-family: 'Playfair Display SC', serif;
+    font-size: 1.1em;
+    margin-top: 30px;
 }
 
 h1
@@ -12,6 +20,7 @@ h1
     font-family: 'Playfair Display SC', serif;
     color: #CE372D;
 }
+
 
 
 .table
@@ -40,31 +49,43 @@ table
     border-top: double black !important;
 }
 
-
-
-nav >ul >li a:hover
+a
 {
-    color: #995629;
-}
-
-nav >ul >li a
-{
-    display: flex;
-    flex-direction: column;
-    list-style-type: none;
-    color: #c48446;
-    margin-bottom: 10px;
+    text-align: center;
+    display: block;
+    color: #f2faff !important;
+    font-family: 'Chakra Petch', sans-serif;
 }
 
 ul
 {
+    padding: 0;
     list-style-type: none;
+}
+
+
+.navbar-fixed-background ul li
+{
+    margin-bottom: 2.8em;
+}
+
+
+.navbar-fixed-background img
+{
+    padding-bottom: -30px;
+    width: 30px;
+
 }
 
 .navbar-fixed-background
 {
+
+    padding-top: 187px;
+    padding-bottom: 209px;
     position: fixed;
-    display: block;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
     float: left;
     width: 6rem;
     height: 100vh;
@@ -77,19 +98,73 @@ ul
     transform: translate3d(0,0,0)
 }
 
-.navbar-content.sidebar
+.btn
 {
-    margin-left: 97px;
-    margin-top: 53px;
-    font-size: 1.3em;
-    display: block;
-    width: 26%;
-    left: 6rem;
+    margin-top: 85px;
+    font-size: 1.6em;
+    font-family: 'Playfair Display SC', serif;
+    color: white !important;
+    transition: all 0.3s;
+    position: relative;
+    line-height: 50px;
+    height: 60px;
+    text-align: center;
+    width: 250px;
+    cursor: pointer;
+    background-color: #9CA4A6;
 }
 
-.navbar-content {
-    bottom: 15vh;
-    z-index: 6000;
+button a
+{
+    font-family: 'Playfair Display SC', serif;
+}
+
+button span
+{
+    transition: all 0.3s;
+}
+
+button::before
+{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.3s;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    transform: scale(0.1, 1);
+}
+
+
+button:hover::before
+{
+    opacity: 1;
+    transform: scale(1, 1);
+}
+
+button::after
+{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.3s;
+    background-color: rgba(255,255,255,0.1);
+}
+
+button:hover::after {
+    opacity: 0;
+    transform: scale(0.1, 1);
 }
 
 footer
@@ -99,4 +174,5 @@ footer
     margin-left: 1550px;
     margin-bottom: 24px;
     color: black;
+    font-family: 'Chakra Petch', sans-serif;
 }

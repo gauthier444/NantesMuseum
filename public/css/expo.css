@@ -5,6 +5,13 @@ body
     background-position: center;
 }
 
+.link
+{
+    font-family: 'Playfair Display SC', serif;
+    font-size: 1.1em;
+    margin-top: 30px;
+}
+
 h1
 {
     text-align: center;
@@ -94,16 +101,13 @@ button:hover::after {
     transform: scale(0.1, 1);
 }
 
-nav >ul >li a:hover
-{
-    color: #995629;
-}
 
 a
 {
     text-align: center;
     display: block;
     color: #f2faff !important;
+    font-family: 'Chakra Petch', sans-serif;
 }
 
 ul
@@ -154,4 +158,5 @@ footer
     margin-left: 1550px;
     margin-bottom: 24px;
     color: black;
+    font-family: 'Chakra Petch', sans-serif;
 }

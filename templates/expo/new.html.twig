@@ -5,6 +5,7 @@
 {% block stylesheets %}
     <link rel="stylesheet" href="{{ asset('css/expo.css') }}">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
 
 {% endblock %}
@@ -14,17 +15,8 @@
 
     {{ include('expo/_form.html.twig') }}
 
-    <a href="{{ path('expo_index') }}">back to list</a>
+    <div class="link">
+    <a href="{{ path('expo_index') }}">Liste des expositions</a>
+    </div>
 {% endblock %}
 
-  {% block menu %}
-      <div class="navbar-fixed-background">
-          <ul>
-              <li><a href="../home"> <img class= "home" src="../image/home1.png" alt="icone d'accueil"><p>Accueil</p></a></li>
-              <li><a href="../expo/new"><img class= "expos" src="../image/expos.png" alt="icone d'expos"><p>Expositions</p></a></li>
-              <li><a href="../reservation/new"><img class= "ticket" src="../image/movie-tickets.png" alt="icone ticket"><p>Réservation</p></a></li>
-              <li><a href="../"><img class= "musees" src="../image/musées.png" alt="icone musees"><p>Musées</p></a></li>
-              <li><a href="../user/new"><img class="telephone" src= "../image/telephone.png" alt="icone tel"><p>Contact</p></a></li>
-          </ul>
-      </div>
-  {% endblock %}
