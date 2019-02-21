@@ -94,10 +94,6 @@ button:hover::after {
     transform: scale(0.1, 1);
 }
 
-nav >ul >li a:hover
-{
-    color: #995629;
-}
 
 a
 {
