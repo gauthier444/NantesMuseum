@@ -152,4 +152,14 @@ footer
     margin-bottom: 24px;
     color: white;
     font-family: 'Chakra Petch', sans-serif;
+    border-style: double;
+    text-align: center;
+}
+
+footer p
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
 }

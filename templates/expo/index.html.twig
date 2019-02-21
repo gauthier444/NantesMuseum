@@ -29,7 +29,7 @@
                 <td>{{ expo.Description }}</td>
                 <td>{{ expo.Location }}</td>
                 <td>{{ expo.Date ? expo.Date|date('d/m/Y') : '' }}</td>
-                <td>
+                <td class="link">
                     <a href="{{ path('expo_show', {'id': expo.id}) }}">OK</a>
                 </td>
             </tr>

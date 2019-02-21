@@ -21,7 +21,11 @@ class ReservationType extends AbstractType
             ->add('FirstName', TextType::class)
             ->add('PhoneNumber', TelType::class)
             ->add('Mail', EmailType::class)
-            ->add('Date', DateTimeType::class)
+            ->add('Date', DateTimeType::class, [
+                'widget' => 'choice',
+                'format' => 'dd-MM-yyyy',
+                'years' => range(date('Y'), date('Y')+100),
+            ])
             ->add('MuseumChoice', ChoiceType::class, [
                 'choices' => [
                     'Musée d\'histoire' => 'museum1',
@@ -30,9 +34,7 @@ class ReservationType extends AbstractType
                     'Musée Jules Verne' => 'museum4',
                     'Musée d\'histoire naturelle' => 'museum5',
                 ],
-            ])
-            ->add('Date', DateTimeType::class)
-        ;
+            ]);
     }
 
     public function configureOptions(OptionsResolver $resolver)

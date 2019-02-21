@@ -18,7 +18,11 @@ class ExpoType extends AbstractType
             ->add('Name', TextType::class)
             ->add('Description', TextareaType::class)
             ->add('Location', TextType::class)
-            ->add('Date', DateType::class);
+            ->add('Date', DateType::class, [
+                'widget' => 'choice',
+                'format' => 'dd-MM-yyyy',
+                'years' => range(date('Y'), date('Y')+100),
+            ]);
     }
 
     public function configureOptions(OptionsResolver $resolver)

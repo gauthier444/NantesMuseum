@@ -7,21 +7,26 @@ h1
     opacity: 0.7;
 }
 
-h2 {
+h2
+{
     color: #79736e;
     font-size: 25px !important;
+    font-family: 'Chakra Petch', sans-serif;
 }
 
-nav >ul >li a:hover
+p
 {
-    color: #995629;
+    font-family: 'Chakra Petch', sans-serif;
+
 }
+
 
 a
 {
     text-align: center;
     display: block;
     color: #f2faff !important;
+    font-family: 'Chakra Petch', sans-serif;
 }
 
 ul
@@ -130,13 +135,24 @@ ul
     margin-bottom: 15px;
     width: 450px;
     height: 300px;
-
+}
 
 footer
 {
     position: absolute;
     bottom: 0;
-    margin-left: 1550px ;
-    margin-bottom: 24px;
+    margin-left: 1550px;
+    margin-bottom: -1800px;
     color: grey;
+    font-family: 'Chakra Petch', sans-serif;
+    border-style: double;
+    text-align: center;
+}
+
+footer p
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
 }

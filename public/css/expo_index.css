@@ -9,8 +9,13 @@ body
 .link
 {
     font-family: 'Playfair Display SC', serif;
-    font-size: 1.1em;
-    margin-top: 30px;
+    font-size: 1.2em;
+    margin-top: 40px;
+}
+
+.link a
+{
+    color: #CE372D !important;
 }
 
 h1
@@ -35,6 +40,7 @@ table
 {
     border-collapse: collapse;
     border-style: double;
+    margin-top: 80px;
 }
 
 *, ::after, ::before
@@ -175,4 +181,14 @@ footer
     margin-bottom: 24px;
     color: black;
     font-family: 'Chakra Petch', sans-serif;
+    border-style: double;
+    text-align: center;
+}
+
+footer p
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
