@@ -73,17 +73,6 @@ ul
    transform: translate3d(0,0,0)
 }
 
-.navbar-content.sidebar
-{
-   display: flex;
-
-   float: right;
-}
-
-.navbar-content {
-   bottom: 15vh;
-   z-index: 6000;
-}
 
 footer 
 {
