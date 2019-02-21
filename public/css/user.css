@@ -99,6 +99,7 @@ a
     text-align: center;
     display: block;
     color: #f2faff !important;
+    font-family: 'Chakra Petch', sans-serif;
 }
 
 ul
@@ -149,4 +150,5 @@ footer
     margin-left: 1550px;
     margin-bottom: 24px;
     color: white;
+    font-family: 'Chakra Petch', sans-serif;
 }
