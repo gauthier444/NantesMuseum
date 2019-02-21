@@ -1,0 +1,66 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Description des plus beaux musées{% endblock %}
+{% block stylesheets %}
+    <link rel="stylesheet" href="{{ asset('css/description.css') }}">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
+{% endblock %}
+
+{% block body %}
+    <div>
+        <h1>Nantes <br> Museum</h1>
+    </div>
+    <br>    <br>
+    <br>
+
+    <div class="article">
+        <h2>Musée d'histoire</h2>
+
+        <img src="../image/chateaunantes.jpg" alt="chateau" class="chateau"><img src="../image/chateaunantes2.jpg" alt="chateau" class="chateau"><img src="../image/chateaunantes3.jpg" alt="chateau" class="chateau">
+
+        <p>Le Musée d'histoire, à l'intérieur du château des ducs de Bretagne, offre au public une rétrospective des activités nantaises au fil des
+            siècles ainsi qu'une vaste ouverture au monde contemporain : les thèmes proposés au fil de la visite montrent l'évolution de la cité antique jusqu'à la ville contemporaine en passant par la Révolution française,
+            ou encore l'histoire du port colonial avec un fonds très important concernant la traite négrière et le commerce triangulaire. </p>
+        <br>
+    </div>
+    <div class="article">
+        <h2> Musée d'arts de Nantes</h2> <img src="../image/museed'art.jpg" alt="musée d'art" class="art"><img src="../image/museeart2.jpg" alt="musée d'art" class="art"><img src="../image/museeart3.jpg" alt="musée d'art" class="art">
+        <p>Situé entre le château des ducs de Bretagne et le jardin des plantes, le Musée d'arts constitue une riche réserve artistique. L'architecture du palais est dans la ligne des constructions officielles de la fin du XIXe siècle :
+            son édification commence en 1893, selon des plans de l'architecte nantais Clément-Marie Josso, et l'inauguration a lieu en 1900. Le 23 juin 2017, le musée a rouvert
+            ses portes suite à d’importants travaux qui ont permis de répondre aux normes contemporaines de conservation et d’augmenter de 30 % la surface d’exposition. Par une réorganisation des espaces, la volonté des architectes a été de créer un parcours muséographique et architectural cohérent,
+            au service de l’art. Le voyage au travers des collections du musée invite le visiteur à déambuler au cœur d’une grande variété d’espaces architecturaux en suivant un parcours continu dans
+            l’histoire de l’art, du XIIIe au XXIe siècle. </p>
+        <br>
+    </div>
+
+    <div class="article">
+        <h2>Musée Dobrée</h2><img src="../image/museedobree.jpg" alt="musée dobrée" class="dobree"><img src="../image/museedobree2.JPG" alt="musée dobrée" class="dobree"><img src="../image/museedobree3.jpg" alt="musée dobrée" class="dobree">
+        <p> Situé quartier Graslin tout près du Muséum d'histoire naturelle, le musée Dobrée abrite une riche collection d'œuvres du Moyen Âge jusqu'au XXe siècle et compte plusieurs
+            pièces rassemblées par Thomas Dobrée (1810-1895), un collectionneur issu d'une famille de négociants et armateurs du port de Nantes. Il rassemble aussi un très large éventail
+            d’objets archéologiques allant de l'ère glaciaire jusqu'à la période carolingienne1. Parmi les pièces rares on trouve notamment le reliquaire du cœur d'Anne de Bretagne. </p>
+        <br>
+    </div>
+
+    <div class="article">
+        <h2>Musée Jules-Verne</h2> <img src="../image/julesverne.jpg" alt="jules verne" class="jules"><img src="../image/julesverne2.jpg" alt="jules verne" class="jules"><img src="../image/julesverne3.jpg" alt="jules verne" class="jules">
+        <p> Au sommet de la butte Saint-Anne, le Musée Jules-Verne est entièrement consacré à l'écrivain né à Nantes en 1828. Il retrace la vie de l'auteur et restitue au public
+            différentes collections en rassemblant livres, manuscrits, documents, extraits des œuvres et illustrations, affiches et objets2. La visite du musée présente, entre autres,
+            une reconstitution du salon de Jules Verne qui évoque le décor de la pièce où furent reçus les journalistes venus d'Amérique, d'Angleterre, d'Allemagne ou de France pour
+            s'entretenir avec le romancier. Le musée Jules Verne fut inauguré en 1978 à l'occasion du 150e anniversaire de la naissance de l'écrivain et rénové dans le cadre de l'année
+            du centenaire de sa disparition en 2005.</p>
+        <br>
+    </div>
+
+    <div class="article">
+        <h2> Muséum d'histoire naturelle</h2> <img src="../image/histoirenat.jpg" alt="musée d'histoire naturelle" class="naturelle"><img src="../image/histoirenat2.jpg" alt="musée d'histoire naturelle" class="naturelle"><img src="../image/histoirenat3.jpg" alt="musée d'histoire naturelle" class="naturelle">
+        <p> Le muséum d'histoire naturelle présente des collections de sciences naturelles et abrite différentes collections de zoologie générale, de faune régionale, de minéralogie ainsi
+            qu'un vivarium présentant reptiles et batraciens de toutes origines.
+            François-René Dubuisson, épicier droguiste nantais, lance la première initiative nantaise de collection sur le thème de l'approche de l'étude de la nature, dans la foulée de
+            la création en 1793 du Muséum d’histoire naturelle de Paris à partir du Jardin du Roi. Les collections sont achetées par le département en 1802 puis par la Ville de Nantes en 1806,
+            qui les installe dans l'ancienne école de chirurgie de Saint-Côme (rue Saint-Léonard). Le bâtiment actuel fut inauguré en 1875 dans l'ancien Hôtel de la Monnaie3. </p>
+        <br>
+    </div>
+
+
+{% endblock %}
