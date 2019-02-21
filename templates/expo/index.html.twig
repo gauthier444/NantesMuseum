@@ -1,14 +1,20 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Expo index{% endblock %}
+{% block title %}Liste des expositions{% endblock %}
+
+{% block stylesheets %}
+    <link rel="stylesheet" href="{{ asset('css/expo_index.css') }}">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
+{% endblock %}
+
 
 {% block body %}
-    <h1>Expo index</h1>
+    <h1>Expositions</h1>
 
     <table class="table">
         <thead>
             <tr>
-                <th>Id</th>
                 <th>Name</th>
                 <th>Description</th>
                 <th>Location</th>
@@ -19,7 +25,6 @@
         <tbody>
         {% for expo in expos %}
             <tr>
-                <td>{{ expo.id }}</td>
                 <td>{{ expo.Name }}</td>
                 <td>{{ expo.Description }}</td>
                 <td>{{ expo.Location }}</td>

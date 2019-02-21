@@ -27,7 +27,7 @@ form label
     text-align: center;
     font-size: 1.5em;
     flex-direction: column;
-    color: #370E0C;
+    color: #330000;
 }
 
 .btn
@@ -150,5 +150,5 @@ footer
     bottom: 0;
     margin-left: 1550px;
     margin-bottom: 24px;
-    color: white;
+    color: black;
 }
